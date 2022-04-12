@@ -31,19 +31,6 @@ def print_pares(lista):
 
 print_pares([1,2,3,4,5])
 
-
-#%% integer division or modulo by zero
-#qué sucede al arreglarlo?
-
-def is_primo(n):
-    for i in range(n-1):
-        if n%i == 0:
-            return False
-    return True
-
-#utilizar esta funcion para escribir un programa que nos entregue una lista 
-# de cuantos primos hay hasta cierto numero n, junto con su cantidad
-
 #%%los numeros perfectos son iguales a la suma de sus divisores
 #'HACER UN PROGRAMA QUE ENCUENTRE TODOS LOS NUMEROS PERFECTOS MENORES QUE UN VALOR DADO, LOS IMPRIMA Y LOS CUENTE'
 
